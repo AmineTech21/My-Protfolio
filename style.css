@@ -1,0 +1,598 @@
+:root{
+    --mainColor:#0325ED;
+    --secondaryColor:#0369FE;
+
+    --transparent:rgba(30, 30, 30,0.8);
+
+    --iconsColor: #b9b9c0;
+    --iconsColorHover: #0448F3;
+
+    --linkHover:#0486FF;
+
+    --background-color:#1E1E1E;
+
+    --gradientBlue:linear-gradient(to right top, #0325ed, #0036f1, #0044f5, #0050f8, #005bfb, #0063fd, #006afe, #0071ff, #0077ff, #007cff, #0081ff, #0486ff);
+
+    --borderColor:#015B1B;
+
+    --mainText:#F6F8FC;
+    --secondaryText:#F6F8FC;
+    --whiteText:#fff;
+    --blackText:#1E1E1E;
+
+    --previewShadow:#f0ead6;
+
+    --buttonColor:black;
+}
+html {
+    scroll-behavior: smooth;
+  }
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+}
+
+body *{
+    transition: 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6, a, li, span, label, form, input {
+    color: var(--mainText);
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+}
+
+p,label, input, textarea,button{
+    color: var(--secondaryText);
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 { font-size: 75px;}
+h2 { font-size: 36px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 16px;}
+
+li{
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*------------------------Barre de navigation--------------------------*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: var(--transparent);
+    overflow: hidden;
+    position: fixed;
+    width: 100%; 
+    z-index: 1;
+    
+  }
+
+  /**/
+  
+  /* Style the links inside the navigation bar */
+.topnav{
+    display: flex;
+    justify-content: space-between;
+}
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: var(--linkHover);
+    transition: 0.3s;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: var(--linkHover);
+    text-decoration: none;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+/*logo*/
+
+.logo{
+    width: 70px;
+    margin-left: 100px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+}
+li{
+    float: left;
+}
+  
+  li a {
+    display: block;
+    color: var(--mainText);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+
+/*-------------------------------- Presentation page(home page) ---------------*/
+
+.front-page{
+    background-color:var(--background-color);
+    padding: 0;
+    width: 100%;
+    overflow: auto;
+    overflow: hidden;
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    overflow: hidden;
+    width: 100%;
+    color: white;
+}
+.text-presentation{
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.fa-code-branch{
+    color: var(--iconsColorHover);
+}
+
+/*Bouton*/
+.btn-code{
+    display: block;
+    background-color: #0448F3;
+    margin-top: -40px;
+    padding: 15px 32px;
+    color: var(--whiteText);
+}
+
+.btn-code:hover{
+    background-color: white;
+    border: 2px solid #0448F3;
+    color: var(--blackText);
+}
+
+/*Image abstraite*/
+.image-abstraite{
+    font-size: 70px;
+    overflow: hidden;
+}
+
+.image-abstraite .fab{
+    position: relative;
+    color: #0448F3;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    z-index: 0;
+    filter:drop-shadow(20px 10px 1px rgba(4,72,243,0.5));
+}
+
+
+/*-------------------------------- About me ----------------------------*/
+.About{
+    margin-bottom: 200px;
+}
+
+.myself{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    margin-left: 60px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+/*Image about*/
+.image-about{
+    font-size: 50px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+.image-about .fab{
+    color: #0448F3;
+    top: 20px;
+    left: 52%;
+    z-index: 0;
+    filter:drop-shadow(0px 60px 1px  rgba(4,72,243,0.3));
+}
+
+/*Bouton*/
+.btn-paste{
+    display: block;
+    background-color: #0448F3;
+    margin-top: 20px;
+    padding: 15px 32px;
+    color: var(--whiteText);
+}
+.btn-paste:hover{
+    background-color: white;
+    border: 2px solid #0448F3;
+    color: var(--blackText);
+}
+
+/*Font awesome icons*/
+
+.icons{
+    width: 100%;
+    margin:auto ;
+    margin-left: 50px;
+}
+
+.icons i.fab, .icons i.fas{
+    color: var(--iconsColor);
+    margin: 15px;
+}
+
+.icons i.fab:hover, .icons i.fas:hover{
+    color: var(--iconsColorHover);
+}
+
+/*---------------------------- Work ----------------------------------*/
+.work{
+    display: grid;
+    width:100%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.mockups{
+    width: 100%;
+    margin: auto;
+}
+
+.project{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*----------------------------- Contact-form --------------------------*/
+/* Style inputs with type="text", select elements and textareas */
+.contact{
+    width: 500px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info-client{
+    display: flex;
+
+}
+.inpt{
+    background-color: #2B2B2B;
+    border: none;
+    padding:12px ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 480px;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    border: none;
+    color: var(--mainText);
+    background-color: #2B2B2B;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    display: block;
+    margin-left: auto;
+    background-color: #0448F3;
+    border: 2px solid var(--background-color);
+    padding: 15px 32px;
+    color: var(--whiteText);
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: white;
+    border: 2px solid #0448F3;
+    color: var(--blackText);
+    
+  }
+/*-------------------------------------- Responsive web design ---------------------------*/
+
+/*écran 4k 2560px*/
+
+@media screen and (max-width: 2560px) {
+      
+}
+
+/*laptop-L 1440px*/
+
+@media screen and (max-width: 1440px) {
+      
+}
+
+/*laptop 1024px*/
+
+@media screen and (max-width: 1024px) {
+
+/*-------Front page---------*/
+
+/*Image battle-net*/
+
+    .image-abstraite{
+        font-size: 55px;
+    }
+
+/*Text presentation*/
+
+    h1 { font-size: 50px;}
+    .text-presentation{
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+    .btn-code{
+        margin-top: -30px;
+    }
+/*---------About--------*/
+    .description{
+        margin-right: 20px;
+    }
+    .image-about{
+        font-size: 45px;
+        margin-right: 20px;
+    }
+/*---------Project--------*/
+    .mockups{
+        width: 500px;
+        margin: auto;
+    }
+
+    .left{
+        margin-left: -100px;
+    }
+    .right{
+        margin-left: 0px;
+    }
+    .text-left{
+        width: 350px;
+    }
+    .text-right{
+        width: 350px;
+    }
+    
+}
+
+/*Tablet 768pxpx*/
+
+@media screen and (max-width: 768px) {
+/*----------hamburger navbar-------*/
+.topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  
+
+  .logo{
+      display: none;
+  }
+
+/*-------Front page---------*/
+    .front-page{
+    height: 600px;
+}
+/*Image battle-net*/
+
+    .image-abstraite{
+        font-size: 40px;
+    }
+
+/*Text presentation*/
+
+    h1 { font-size: 40px;}
+    .text-presentation{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .presentation{
+        margin-left: -20px;
+    }
+    .btn-code{
+        font-size: 15px;
+        margin-top: -15px;
+    }
+/*---------About--------*/
+    .description{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .image-about{
+        font-size: 30px;
+        margin-right: 20px;
+        margin-top: 200px;
+    }
+    .image-about .fab{
+        filter:drop-shadow(0px 40px 1px  rgba(4,72,243,0.3));
+    }
+/*---------Project--------*/
+    .mockups{
+        width: 500px;
+        margin: auto;
+    }
+    .project1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .project2{
+        display: flex;
+        flex-direction: column;
+    }
+    .project3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .project4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .right{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .text-left{
+        width: 100%;
+    }
+    .text-right{
+        width: 100%;
+    }
+
+
+
+}
+
+/*Phone 480px*/
+
+@media screen and (max-width: 500px) {
+
+/*Image battle-net*/
+    .front-page{
+        padding-bottom: 100px;
+    }
+    .presentation{
+        flex-direction: column;
+    }
+    .image-abstraite{
+        font-size: 35px;
+        margin-left: 80px;
+    }
+/*Text presentation*/
+    .text-presentation{
+        margin-left: 150px;
+    }
+/*---------About--------*/
+    .myself{
+        display: grid;
+    }
+    .description{
+        margin: 80px 80px;
+    }
+    .description h2{
+        text-align: center;
+    }
+    .description p{
+        text-align: justify;
+    }
+    .btn-paste{
+        font-size: 15px;
+    }
+    .image-about{
+        font-size: 30px;
+        margin-right: 0px;
+        margin-top: -60px;
+        text-align: center;
+    }
+    .image-about .fab{
+        filter:drop-shadow(0px 40px 1px  rgba(4,72,243,0.3));
+    }
+    .icons{
+        width: 100%;
+        margin:auto ;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .icons i.fab, .icons i.fas{
+        color: var(--iconsColor);
+        margin-right: 0px;
+        font-size: 41px;
+    }
+    
+    .icons i.fab:hover, .icons i.fas:hover{
+        color: var(--iconsColorHover);
+    }
+    .fa-user-secret{
+        display: none !important;
+    }
+
+/*---------Project--------*/
+    .work h3{
+        text-align: center;
+    }
+    .work p{
+        text-align: justify;
+    }
+
+/*----------Contact form------*/
+    .contact{
+        width: 400px;
+        margin:auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
