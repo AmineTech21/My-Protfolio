@@ -334,13 +334,45 @@ input[type=text], select, textarea {
 /*écran 4k 2560px*/
 
 @media screen and (max-width: 2560px) {
-      
+    .mockups{
+        width: 800px;
+        margin: auto;
+    }
+
+    .left{
+        margin-left: 0px;
+    }
+    .right{
+        margin-left: 0px;
+    }
+    .text-left{
+        width: 350px;
+    }
+    .text-right{
+        width: 350px !important;
+    }
 }
 
 /*laptop-L 1440px*/
 
 @media screen and (max-width: 1440px) {
-      
+    .mockups{
+        width: 800px;
+        margin: auto;
+    }
+
+    .left{
+        margin-left: 0px;
+    }
+    .right{
+        margin-left: 0px;
+    }
+    .text-left{
+        width: 450px !important;
+    }
+    .text-right{
+        width: 450px !important;
+    }
 }
 
 /*laptop 1024px*/
