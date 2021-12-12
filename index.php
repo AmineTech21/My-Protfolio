@@ -70,7 +70,7 @@
             <div class="description">
                 <h2 >Who Am I ?</h2>
                 <p>I’m a full stack developper, and I have a passion to solve problems <br> and to code at night until my eyes hurts me ! (that's not good I know) <br> I also love to work on new projects and revolutionary ideas <br> <br>
-                    I'm a pretty organised but I'm not the cleanest guy I sometimes eat at my desktop, <br> my clothes are everywhere but my CODE is always CLEAN !!! <br> 
+                    I'm a pretty organised person but I'm not the cleanest, guy I sometimes eat at my desktop, <br> my clothes are everywhere but my CODE is always CLEAN !!! <br> 
 
                    <br> My weapon Is my keyboard and I love to use it to kill coding problems. 
                     
@@ -159,18 +159,18 @@
                     - Google Login Api <br> <br>
                     <a href="https://oumarauto.com" target="_blank">-> Show live website <-</a> <br> <br>
 
-                    *PS : the site is still in productions and is not completely done.
+                    *PS : the site is still in production and is not completely done.
                 </p>
             </div>
             <a href="https://oumarauto.com" target="_blank"><img class="mockups right" src="./images/images-mockups/Oumarauto.png" alt=""></a>
         </div>
 
         <div class="project3 project">
-            <a href="https://amineboukhari-productcrud.infinityfree.com" target="_blank"><img class="mockups left" src="./images/images-mockups/Products_crud.png" alt=""></a>
+            <a href="https://generatorcv.aminewebsite.com" target="_blank"><img class="mockups left" src="./images/images-mockups/cvgenerator.png" alt=""></a>
             <div class="text-right">
-                <h3>Products Crud Website</h3>
+                <h3>Cv Generator Website</h3>
                 <h4>The Goal Of the Project :</h4>
-                <p>The goal was to make a small to :<br> <br>
+                <p>
                     - learn the basics of PHP and MySql<br>
                     - Learn to work with databases<br>
                     - Structure Database<br>
@@ -184,23 +184,39 @@
                     - PHP <br>
                     - MySql <br>
                     - HTML <br>
+                    - CSS <br>
+                    - Bootstrap <br>
                     - PhpMyAdmin <br> <br>
-                    <a href="https://amineboukhari-productcrud.infinityfree.com" target="_blank">-> Show live website <-</a>
+                    <a href="https://generatorcv.aminewebsite.com" target="_blank">-> Show live website <-</a>
                 </p>
             </div>
             
         </div>
         
-        <!-- 4ème project
+        
 
             <div class="project4 project">
                 <div class="text-left">
-                    <h3>Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aut placeat non. Enim, facilis. Enim distinctio ducimus animi eligendi nostrum delectus voluptas voluptate ad atque nesciunt rem, consectetur odio numquam.</p>
+                    <h3>Todo app in vanilla javascript</h3>
+                    <h4>The Goal Of the Project :</h4>
+                <p>
+                    - learn the basics of Javascript<br>
+                    - save informations with javascript<br>
+                    - Work with the dom<br>
+                    - Create  <br>
+                    - Delete <br>
+                </p>
+                <h4>Technologie used :</h4>
+                <p>
+                    - Javascript <br>
+                    - HTML <br>
+                    - CSS <br> <br>
+                    <a href="https://todo-app-js-amineboukhari.netlify.app" target="_blank">-> Show live website <-</a>
+                </p>
                 </div>
-                <img class="mockups right" src="./images/images-mockups/w3 schools.png" alt="">
+                <a href="https://todo-app-js-amineboukhari.netlify.app" target="_blank"><img class="mockups right" src="./images/images-mockups/todo-app-js.png" alt=""></a>
             </div>
-        -->
+        
     </section>
 
     <section class="contact" id="contact">
