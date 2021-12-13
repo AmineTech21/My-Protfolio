@@ -436,6 +436,11 @@ input[type=text], select, textarea {
     display: block;
   }
 
+  .topnav {
+    position: static;
+    
+  }
+
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -532,7 +537,6 @@ input[type=text], select, textarea {
 
 }
 
-/*Phone 480px*/
 
 @media screen and (max-width: 500px) {
 
@@ -579,7 +583,7 @@ input[type=text], select, textarea {
     .icons{
         width: 100%;
         margin:auto ;
-        margin-left: 0px;
+        margin-left: 30px;
         margin-top: 30px;
     }
     
@@ -603,10 +607,109 @@ input[type=text], select, textarea {
     .work p{
         text-align: justify;
     }
-
+    .work{
+        width: 10px !important;
+    }
+    /*
+    .mockups{
+        width: 300px;
+    }
+    */
+    .project{
+        display: flex;
+        margin-left: 15px;
+        margin-right: 100px;
+    }
+    
 /*----------Contact form------*/
     .contact{
         width: 400px;
+        margin:auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+
+}
+
+
+/*Phone 330px*/
+@media screen and (max-width: 330px) {
+
+/*Image battle-net*/
+    .front-page{
+        padding-bottom: 0px !important;
+    }
+    .presentation{
+        flex-direction: column;
+    }
+    .image-abstraite{
+        font-size: 20px !important;
+        margin-left: 50px;
+    }
+/*Text presentation*/
+    .text-presentation{
+        margin-left: 60px !important;
+    }
+/*---------About--------*/
+    .myself{
+        display: grid;
+    }
+    .description{
+        margin: 25px 25px !important;
+    }
+    .image-about{
+        font-size: 30px;
+        margin-top: -30px !important;
+    }
+    .image-about .fab{
+        filter:drop-shadow(0px 40px 1px  rgba(4,72,243,0.3));
+    }
+    .icons{
+        width: 100%;
+        margin:auto ;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .icons i.fab, .icons i.fas{
+        color: var(--iconsColor);
+        margin-right: 0px;
+        font-size: 41px;
+    }
+    
+    .icons i.fab:hover, .icons i.fas:hover{
+        color: var(--iconsColorHover);
+    }
+    .fa-bootstrap, .fa-github{
+        display: none !important;
+    }
+
+/*---------Project--------*/
+    .work h3{
+        text-align: center;
+        width: 300px !important;
+    }
+    .work p{
+        text-align: justify;
+        width: 280px !important;
+    }
+    .work{
+        width: 10px !important;
+    }
+    
+    .mockups{
+        width: 300px;
+    }
+    .project{
+        display: flex;
+        margin-left: 15px;
+        margin-right: 100px;
+    }
+
+/*----------Contact form------*/
+    .contact{
+        width: 280px;
         margin:auto;
         margin-top: 50px;
         margin-bottom: 50px;

@@ -69,7 +69,7 @@
         <div class="myself">
             <div class="description">
                 <h2 >Who Am I ?</h2>
-                <p>I’m a full stack developper, and I have a passion to solve problems <br> and to code at night until my eyes hurts me ! (that's not good I know) <br> I also love to work on new projects and revolutionary ideas <br> <br>
+                <p>I’m a full stack web developer, and I have a passion to solve problems <br> and to code at night until my eyes hurts me ! (that's not good I know) <br> I also love to work on new projects and revolutionary ideas <br> <br>
                     I'm a pretty organised person but I'm not the cleanest guy, I sometimes eat at my desktop, <br> my clothes are everywhere but my CODE is always CLEAN !!! <br> 
 
                    <br> My weapon Is my keyboard and I love to use it to kill coding problems. 
